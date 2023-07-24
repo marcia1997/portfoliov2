@@ -1,5 +1,5 @@
 import "./intro.css";
-import { Helmet } from "react-helmet";
+import React, { Helmet } from "react-helmet";
 /*image create from Simon Lee https://unsplash.com/es/@simonppt*/
 import photo from "../../img/photo.jpg";
 const Intro = () => {
