@@ -1,0 +1,213 @@
+.a {
+  margin-top: 150px;
+  margin-bottom: 150px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+
+}
+
+.a-left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: -65px;
+}
+
+.a-right {
+  flex: 1;
+  margin-top: 85px;
+
+}
+
+.a-card.bg {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  background-image:url(../../img/about.avif);
+}
+
+.a-card {
+  width: 60%;
+  height: 70vh;
+  border-radius: 30px;
+  position: relative;
+  overflow: hidden;
+  margin-top:20px;
+  }
+
+.i-img-profile {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+}
+
+.a-award-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 20px;
+  margin-right: 50px;
+  display: flex;
+}
+.container-1{ 
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content:center;
+  align-items:center;
+  margin-top: 10px;
+  padding-top:5px;
+  padding-left: 15px;
+}
+.container-2{ 
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content:center;
+  align-items:center;
+  margin-top:10px;
+  padding-left: 15px;
+  padding-top: 5px;
+}
+
+
+.a-title {
+  -webkit-text-stroke: 1px #ffffff;
+  -webkit-text-fill-color: transparent;
+  width: fit-content;
+  font-size: 4.5em;
+  font-family: 'Modak';
+  text-align: center;
+  background-size: 100%;
+  left:20px;
+}
+
+@keyframes fluido {
+    0% { background-position: 0 50% }
+    50% { background-position: 100% 50% }
+    100% { background-position: 0 50% }
+}
+
+
+.a-sub {
+  margin: 20px 0px;
+}
+
+.a-desc{
+    font-weight: 300;
+    text-align: left;
+    margin:15px;
+}
+
+.a-award{
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10 10 10 10px;
+
+}
+
+.a-award-texts{
+    width: 70%;
+}
+
+.a-award-title{
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+
+.a-award-img{
+    box-shadow: 0 0 10px rgb(201, 125, 255); 
+}
+
+
+
+@media screen and (max-width:480px) {
+  .a{
+    flex-direction: column;
+    margin-top: 250px;
+  }
+
+  .a-left {
+    width: 100%;
+  }
+
+ 
+.a-card {
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  position: relative;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.i-img-profile{
+  border-radius: 50%;
+  position: absolute;
+  height:320px;
+  width: 100%;
+}
+
+
+
+
+
+ .a-card{
+  width: 80%;
+  height:200%;
+  position:relative;
+  margin-top:90px;
+  margin-bottom: 120px;
+  
+ }
+
+  .a-card.bg {
+    display: none;
+  }
+  
+  .a-award-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    margin-right: 15px;
+    display: flex;
+    padding: 8 8 8 8px;
+  }
+  .container-1{ 
+    margin-top: 10px;
+    padding-top:12px;
+    padding-left: 55px;
+  }
+  .container-2{ 
+    margin-top:3px;
+    padding-left:55px;
+    padding-top: 0;
+    margin-bottom: 20px;
+  }
+  .a-award{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5 5 5 5px;
+}
+.a-title{
+  font-size: 50px;
+  margin-left: 80px;
+}
+ a.desc{
+  margin: 10px;
+
+ }
+  .a-right{
+   margin-top: 5px;
+  }
+  .a-sub{
+   margin-left:15px;
+  }
+}

@@ -1,0 +1,60 @@
+/* General styles for element with class 'pl' */
+.pl {
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center content horizontally */
+  text-align: center; /* Center align text */
+  padding: 20px 50px; /* Adjust padding for top and bottom, and horizontal spacing */
+  margin-top: 40px; /* Spacing from the top */
+  margin-bottom: 150px; /* Spacing from the bottom */
+}
+
+/* Styling for the text container inside '.pl' */
+.pl-texts {
+  width: 60%; /* Set width of the text container */
+}
+
+/* Styling for the title */
+.pl-title {
+  -webkit-text-stroke: 1px #ffffff; /* Add a white stroke around the text */
+  -webkit-text-fill-color: transparent; /* Make the text transparent */
+  width: fit-content; /* Adjust width to the content */
+  font-size: 4.5em; /* Font size */
+  font-family: 'Modak'; /* Custom font family */
+  background-size: 100%; /* Adjust background size */
+  text-align: center; /* Center align text */
+  margin-left: 25%; /* Adjust left margin */
+}
+
+/* Styling for the description */
+.pl-desc {
+  margin: 10px 0px; /* Adjust vertical margins */
+}
+
+/* Styling for the list */
+.pl-list {
+  width: 100%; /* Set width to 100% of the container */
+  display: flex; /* Use flexbox for layout */
+  flex-wrap: wrap; /* Allow items to wrap to a new line when there's not enough space */
+  justify-content: space-between; /* Distribute items evenly */
+}
+
+/* Media query for screens with a maximum width of 480px */
+@media screen and (max-width: 480px) {
+  /* Adjust styles for mobile devices */
+  .pl {
+    margin-top:50px;
+  }
+
+  /* Adjust width of '.pl-texts' on mobile */
+  .pl-texts {
+    width: 100%;
+    
+  }
+
+  /* Adjust font size and margin of the title on mobile */
+  .pl-title {
+    font-size: 50px;
+    margin-left: 45px;
+  }
+}

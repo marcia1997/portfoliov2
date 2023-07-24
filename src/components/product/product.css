@@ -1,0 +1,53 @@
+/* General styles for element with class 'p' */
+.p {
+  width: 30%; /* Set width to 30% of its container */
+  height: 40vh; /* Set height to 40% of viewport height */
+  margin: 20px 10px; /* Adjust vertical and horizontal margins */
+  border: 2px solid rgb(243, 242, 242); /* Add a border with light gray color */
+  border-radius: 10px 10px 0px 0px; /* Rounded corners for top-left and top-right */
+  overflow: hidden; /* Hide any overflowing content */
+}
+
+/* Styling for the browser area at the top of the element */
+.p-browser {
+  height: 20px; /* Set height of the browser area */
+  background-color: rgb(243, 242, 242); /* Light gray background color */
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Center content vertically */
+  position: sticky; /* Stick the browser area on scroll */
+  z-index: 2; /* Ensure the browser area appears above other elements */
+}
+
+/* Styling for the circle element inside the browser area */
+.p-circle {
+  width: 6px; /* Set width of the circle */
+  height: 6px; /* Set height of the circle */
+  border-radius: 50%; /* Create a circular shape */
+  margin: 3px; /* Adjust margins around the circle */
+  background-color: white; /* Set background color of the circle */
+  font-size: 80px; /* Font size for the content in the circle */
+  color: #fff; /* Text color in the circle */
+  text-align: center; /* Center align the text */
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6; /* Add a text shadow for a glowing effect */
+}
+
+/* Styling for the image inside the element */
+.p-img {
+  width: 100%; /* Set image width to 100% of the container */
+  transition: all 6s ease; /* Add a smooth transition effect */
+}
+
+/* Image transformation on hover */
+.p:hover .p-img {
+  transform: translateY(-45%); /* Move the image upward on hover */
+}
+
+/* Media query for screens with a maximum width of 480px */
+@media screen and (max-width: 480px) {
+  /* Adjust styles for mobile devices */
+  .p {
+    width: 75%; /* Set width to 75% of the container on mobile */
+    height: 27vh; /* Set height to 27% of viewport height on mobile */
+    margin-left: 45px; /* Adjust left margin for mobile */
+  }
+}
