@@ -1,4 +1,6 @@
 import "./product.css";
+import React from "react";
+
 
 const Product = ({img,link}) => {
   return (
