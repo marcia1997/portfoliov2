@@ -1,5 +1,6 @@
 import "./about.css";
-import React, { Helmet } from "react-helmet";
+import React from "react";
+import { Helmet } from "react-helmet";
 
 
 import Award1 from "../../img/award1.png";
