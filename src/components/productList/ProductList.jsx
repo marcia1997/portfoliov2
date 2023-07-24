@@ -1,7 +1,7 @@
 import "./productList.css";
 import Product from "../product/Product";
 import React, { products } from "../../data";
-import React, { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet";
 
 
 const ProductList = () => {
