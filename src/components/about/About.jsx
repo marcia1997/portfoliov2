@@ -47,6 +47,7 @@ const About = () => {
         </p>
         
         <div className="container-1">
+          
         <div className="a-award">
           <img src={Award1} alt="" className="a-award-img"/>
           <img src={Award2} alt="" className="a-award-img" />

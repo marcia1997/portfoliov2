@@ -149,7 +149,7 @@
 .i-img-profile{
   border-radius: 50%;
   position: absolute;
-  height:320px;
+  height:300px;
   width: 100%;
 }
 
@@ -194,7 +194,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 5 5 5 5px;
+    padding: 5 5 5 0 px;
 }
 .a-title{
   font-size: 50px;
