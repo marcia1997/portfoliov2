@@ -46,8 +46,8 @@
 @media screen and (max-width: 480px) {
   /* Adjust styles for mobile devices */
   .p {
-    width: 75%; /* Set width to 75% of the container on mobile */
-    height: 27vh; /* Set height to 27% of viewport height on mobile */
-    margin-left: 45px; /* Adjust left margin for mobile */
+    width: 95%; /* Set width to 75% of the container on mobile */
+    height: 30vh; /* Set height to 27% of viewport height on mobile */
+    margin-left: 30px; /* Adjust left margin for mobile */
   }
 }
