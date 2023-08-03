@@ -23,7 +23,7 @@ body{background-color: #33007a;
   align-items: center;
   justify-content: center;
   z-index: -1;
-  box-shadow: inset 0 0 50px #fff, inset 20px 0 60px violet, inset -20px 0 60px #0ff, inset 20px 0 300px violet, inset -20px 0 300px #0ff, 0 0 50px #fff, -10px 0 60px violet, 10px 0 60px #0ff;
+  box-shadow: inset 0 0 50px #fff, inset 20px 0 60px rgb(255, 79, 255), inset -20px 0 60px rgb(30, 60, 208), inset 20px 0 300px violet, inset -20px 0 300px rgb(23, 161, 161), 0 0 50px #fff, -10px 0 60px violet, 10px 0 60px rgb(47, 141, 141);
 }
 @keyframes spin {
   100% {
@@ -112,8 +112,8 @@ body{background-color: #33007a;
 }
 
 .i-dev{
-  font-size:20px;
-  margin-left: 95px;
+  font-size:25px;
+  margin-left:40px;
 
   
 }
@@ -130,6 +130,7 @@ body{background-color: #33007a;
   height: 100%;
   object-fit: cover;
   position: absolute;
+  
 }
 
 .i-bg {
