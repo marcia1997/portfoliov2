@@ -101,7 +101,7 @@ const Contact = () => {
         </div>
         <div className="c-right">
           <p className="c-desc">
-            <b>What’s your story?</b> Get in touch..I would love to hear from you
+            <b>What’s your story?</b> Get in touch.I would love to hear from you!
           </p>
           <form ref={formRef} onSubmit={handleSubmit}>
             <input  type="text" placeholder="Name" name="user_name" />
