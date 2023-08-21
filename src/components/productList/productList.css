@@ -1,13 +1,13 @@
-/* General styles for element with class 'pl' */
+/* General styles for elements with class 'pl' */
 .pl {
   display: flex; /* Use flexbox for layout */
   flex-direction: column; /* Stack elements vertically */
   align-items: center; /* Center content horizontally */
   text-align: center; /* Center align text */
-  padding: 20px 80vh; /* Adjust padding for top and bottom, and horizontal spacing */
+  padding: 20px 50px; /* Adjust padding for top and bottom, and horizontal spacing */
   margin-top: 80px; /* Spacing from the top */
   margin-bottom: 150px; /* Spacing from the bottom */
-  height:600px;
+  min-height: 600px; /* Minimum height to ensure content is visible */
 }
 
 /* Styling for the text container inside '.pl' */
@@ -21,7 +21,7 @@
   -webkit-text-fill-color: transparent; /* Make the text transparent */
   width: fit-content; /* Adjust width to the content */
   font-size: 4.5em; /* Font size */
-  font-family: 'Modak'; /* Custom font family */
+  font-family: 'Modak', sans-serif; /* Custom font family with a fallback */
   background-size: 100%; /* Adjust background size */
   text-align: center; /* Center align text */
   margin-left: 25%; /* Adjust left margin */
@@ -40,26 +40,29 @@
   justify-content: space-between; /* Distribute items evenly */
 }
 
-/* Media query for screens with a maximum width of 480px */
+/* Media query for screens with a maximum width of 480px (mobile devices) */
 @media screen and (max-width: 480px) {
   /* Adjust styles for mobile devices */
   .pl {
-  margin-top: 50vh; /* Spacing from the top */
-  margin-bottom: 30vh; /* Spacing from the bottom */
+    padding-top: 30vh; /* Adjust top padding for better spacing */
+    min-height: auto; /* Remove minimum height on mobile */
+    margin-top: 40px; /* Reduce top margin on mobile */
+    margin-bottom: 80px; /* Reduce bottom margin on mobile */
   }
 
   /* Adjust width of '.pl-texts' on mobile */
   .pl-texts {
-    width: 100%;
-    
+    width: 90%; /* Wider width for mobile */
   }
 
   /* Adjust font size and margin of the title on mobile */
   .pl-title {
-    font-size: 50px;
-    margin-left: 25px;
+    font-size: 30px; /* Smaller font size on mobile */
+    margin-left: 0; /* Remove left margin on mobile */
   }
+
+  /* Adjust margin of the description on mobile */
   .pl-desc {
-   margin:5px;
+    margin: 5px 0; /* Reduce vertical margin on mobile */
   }
 }
