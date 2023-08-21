@@ -76,7 +76,7 @@ body{background-color: #33007a;
   overflow: hidden;
  position: relative;
  top:350px;
- padding: 5px;
+ margin-left: 55px;
 }
 
 .i-title-wrapper {
