@@ -44,21 +44,21 @@
 @media screen and (max-width: 480px) {
   /* Adjust styles for mobile devices */
   .pl {
-    padding-top: 30vh; /* Adjust top padding for better spacing */
-    min-height: auto; /* Remove minimum height on mobile */
+    padding-top: 10vh; /* Adjust top padding for better spacing */
+    height: 50px;
     margin-top: 40px; /* Reduce top margin on mobile */
-    margin-bottom: 80px; /* Reduce bottom margin on mobile */
+    margin-bottom: 5vh; /* Reduce bottom margin on mobile */
   }
 
   /* Adjust width of '.pl-texts' on mobile */
   .pl-texts {
-    width: 90%; /* Wider width for mobile */
+    width: 100%; /* Wider width for mobile */
   }
 
   /* Adjust font size and margin of the title on mobile */
   .pl-title {
     font-size: 30px; /* Smaller font size on mobile */
-    margin-left: 0; /* Remove left margin on mobile */
+    margin-left: 25%; /* Remove left margin on mobile */
   }
 
   /* Adjust margin of the description on mobile */

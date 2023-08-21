@@ -394,10 +394,10 @@ button {
 
 @media screen and (max-width: 480px) {
   .c{
-    height: 50%;
+    height: 40%;
     margin-bottom:5px;
     padding-bottom: 0px;
-    padding-top: 50vh;
+    padding-top: 20vh;
   }
   
   .c-wrapper {
