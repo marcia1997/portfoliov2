@@ -15,8 +15,8 @@ body{background-color: #33007a;
   
 .orv {
   animation: spin 4s linear infinite;
-  width: 180px;
-  height: 180px;
+  width: 400px;
+  height:400px;
   padding: 70px;
   margin-top: 80px;
   border-radius: 50%;
