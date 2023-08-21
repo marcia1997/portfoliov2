@@ -44,7 +44,7 @@
 @media screen and (max-width: 480px) {
   /* Adjust styles for mobile devices */
   .pl {
-    margin-top:80vh;
+  padding: 50vw 20vh; /* Adjust padding for top and bottom, and horizontal spacing */
   }
 
   /* Adjust width of '.pl-texts' on mobile */

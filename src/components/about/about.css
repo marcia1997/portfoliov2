@@ -1,7 +1,7 @@
 .a {
   margin-top: 10vh;
   margin-bottom:40vh;
-  height: 90vh;
+  height: 100vh;
   display: flex;
   align-items: center;
 
@@ -133,7 +133,7 @@
 @media screen and (max-width:480px) {
   .a{
     flex-direction: column;
-    padding-top:10vh;
+    padding-top:5vh;
     padding-bottom: 5vh;
   }
 
