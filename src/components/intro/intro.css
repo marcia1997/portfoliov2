@@ -17,7 +17,7 @@ body{background-color: #33007a;
   animation: spin 4s linear infinite;
   width: 180px;
   height: 180px;
-  padding: 150px;
+  padding: 70px;
   margin-top: 80px;
   border-radius: 50%;
   align-items: center;
@@ -76,7 +76,7 @@ body{background-color: #33007a;
   overflow: hidden;
  position: relative;
  top:350px;
- margin-left: 55px;
+ margin-left:30px;
 }
 
 .i-title-wrapper {
@@ -113,7 +113,7 @@ body{background-color: #33007a;
 
 .i-dev{
   font-size:25px;
-  margin-left:40px;
+  margin-left:30px;
 
   
 }
