@@ -71,6 +71,10 @@
   padding-top: 5px;
 }
 
+.tecnologies{
+  align-items: center;
+  justify-content: center;
+}
 
 .a-title {
   -webkit-text-stroke: 1px #ffffff;
@@ -97,7 +101,7 @@
 .a-desc{
     font-weight: 300;
     text-align: left;
-    margin:15px;
+    margin:5px;
 }
 
 .a-award{
@@ -129,7 +133,7 @@
 @media screen and (max-width:480px) {
   .a{
     flex-direction: column;
-    padding-top: 5vh;
+    padding-top:10vh;
     padding-bottom: 5vh;
   }
 
@@ -156,9 +160,6 @@
 }
 
 
-
-
-
  .a-card{
   width: 80%;
   height:200%;
@@ -183,11 +184,9 @@
   .container-1{ 
     margin-top: 10px;
     padding-top:12px;
-    padding-left: 55px;
   }
   .container-2{ 
     margin-top:3px;
-    padding-left:55px;
     padding-top: 0;
     margin-bottom: 20px;
   }
@@ -210,6 +209,6 @@
    margin-top: 5px;
   }
   .a-sub{
-   margin-left:15px;
+   margin-left:5px;
   }
 }

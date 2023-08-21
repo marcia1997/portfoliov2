@@ -85,7 +85,7 @@ const Intro = () => {
         <div className="i-bg">
           <img src={photo} alt=""className="i-img"/>
         </div>
-       < div className="i-title">
+        <div className="i-title" style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
             <div className="i-title-wrapper">
               <div className="i-title-item">Creativity</div>
               <div className="i-title-item">Design</div>

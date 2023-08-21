@@ -5,8 +5,9 @@
   align-items: center; /* Center content horizontally */
   text-align: center; /* Center align text */
   padding: 20px 50px; /* Adjust padding for top and bottom, and horizontal spacing */
-  margin-top: 40px; /* Spacing from the top */
+  margin-top: 80px; /* Spacing from the top */
   margin-bottom: 150px; /* Spacing from the bottom */
+  height:600px;
 }
 
 /* Styling for the text container inside '.pl' */
@@ -43,7 +44,8 @@
 @media screen and (max-width: 480px) {
   /* Adjust styles for mobile devices */
   .pl {
-    padding-top:30Vh;
+    margin-top:320px;
+    padding: 10px 5px;
   }
 
   /* Adjust width of '.pl-texts' on mobile */

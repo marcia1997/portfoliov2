@@ -9,7 +9,7 @@ const ProductList = () => {
   return (
     <div className="pl">
       <div className="pl-texts">
-        <h2 className="pl-title">
+        <h2 className="pl-title"style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
         <Helmet>
         <link
           href="https://fonts.googleapis.com/css?family=Modak&display=swap"

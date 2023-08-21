@@ -46,6 +46,7 @@ const About = () => {
          
         </p>
         
+        <div className="tecnologies">
         <div className="container-1">
           
         <div className="a-award">
@@ -64,6 +65,7 @@ const About = () => {
          </div>
         </div>
       </div> 
+      </div>
       </div>
   );
 };
