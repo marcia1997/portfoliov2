@@ -135,6 +135,7 @@
     flex-direction: column;
     padding-top:5vh;
     padding-bottom: 5vh;
+    height: 50px;
   }
 
   .a-left {
@@ -148,7 +149,7 @@
   border-radius: 30px;
   position: relative;
   overflow: hidden;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .i-img-profile{
@@ -195,7 +196,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 5 5 5 0 px;
+    padding: 5 5  px;
 }
 .a-title{
   font-size: 50px;

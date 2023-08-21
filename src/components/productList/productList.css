@@ -44,10 +44,10 @@
 @media screen and (max-width: 480px) {
   /* Adjust styles for mobile devices */
   .pl {
-    padding-top: 10vh; /* Adjust top padding for better spacing */
+    padding-top: 85vh; /* Adjust top padding for better spacing */
     height: 50px;
     margin-top: 40px; /* Reduce top margin on mobile */
-    margin-bottom: 5vh; /* Reduce bottom margin on mobile */
+    margin-bottom: 20vh; /* Reduce bottom margin on mobile */
   }
 
   /* Adjust width of '.pl-texts' on mobile */
