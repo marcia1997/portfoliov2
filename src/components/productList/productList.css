@@ -44,7 +44,8 @@
 @media screen and (max-width: 480px) {
   /* Adjust styles for mobile devices */
   .pl {
-  padding: 5vw 2vh; /* Adjust padding for top and bottom, and horizontal spacing */
+  margin-top: 50vh; /* Spacing from the top */
+  margin-bottom: 30vh; /* Spacing from the bottom */
   }
 
   /* Adjust width of '.pl-texts' on mobile */
@@ -56,7 +57,7 @@
   /* Adjust font size and margin of the title on mobile */
   .pl-title {
     font-size: 50px;
-    margin-left: 5vh;
+    margin-left: 25px;
   }
   .pl-desc {
    margin:5px;
