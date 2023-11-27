@@ -44,10 +44,9 @@
 @media screen and (max-width: 480px) {
   /* Adjust styles for mobile devices */
   .pl {
-    padding-top: 85vh; /* Adjust top padding for better spacing */
-    min-height: 50px; /* Adjust as needed */
-    margin-top: 5%; /* Reduce top margin on mobile */
-    margin-bottom: 5vh; /* Reduce bottom margin on mobile */
+    padding-top:20px; /* Adjust top padding for better spacing */
+    min-height: 70px; /* Adjust as needed */
+    margin-top: 180px;
   }
 
   /* Adjust width of '.pl-texts' on mobile */
@@ -58,7 +57,6 @@
   /* Adjust font size and margin of the title on mobile */
   .pl-title {
     font-size: 30px; /* Smaller font size on mobile */
-    margin-left: 10; /* Remove left margin on mobile */
   }
 
   /* Adjust margin of the description on mobile */

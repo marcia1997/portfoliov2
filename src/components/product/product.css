@@ -47,6 +47,6 @@
   /* Adjust styles for mobile devices */
   .p {
     width: 150vw; /* Set width to 75% of the container on mobile */
-    height: 40vh; /* Set height to 27% of viewport height on mobile */
+    height: 30vh; /* Set height to 27% of viewport height on mobile */
   }
 }
