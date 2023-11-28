@@ -192,6 +192,8 @@ body{background-color: #33007a;
  
   .i-right{
     width:100%;
+    height: 200%;
+
   }
   .i-left-wrapper {
     align-items: center;
