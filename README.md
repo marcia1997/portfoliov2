@@ -4,3 +4,4 @@ added in package.json
     "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+}
