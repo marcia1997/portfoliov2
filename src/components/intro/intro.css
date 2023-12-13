@@ -185,6 +185,7 @@ body{background-color: #33007a;
 
 @media screen and (max-width: 480px) {
   .i {
+    width:100%;
     flex-direction: column;
     padding: 0;
     object-fit: center;
