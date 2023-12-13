@@ -188,7 +188,7 @@ body{background-color: #33007a;
     width:100%;
     flex-direction: column;
     padding: 0;
-    object-fit: center;
+    align-self: center;
   }
  
   .i-right{
