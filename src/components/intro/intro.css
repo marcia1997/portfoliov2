@@ -195,6 +195,7 @@ body{background-color: #33007a;
     height:90%;
     object-fit:cover;
     align-content: center;
+    justify-content: center;
   }
   .i-left-wrapper {
     align-items: center;
