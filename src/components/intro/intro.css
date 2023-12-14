@@ -204,6 +204,7 @@ body{background-color: #33007a;
     width: fit-content;
   }
   .i-img {
+    width:105%;
     height: 100%;
     object-fit: cover;
     position: absolute;
