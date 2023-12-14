@@ -187,13 +187,13 @@ body{background-color: #33007a;
   .i {
     width:100%;
     flex-direction: column;
+    align-content: center;
   }
  
   .i-right{
     width:100%;
     height:90%;
     object-fit:cover;
-    padding-left:0 ;
     align-content: center;
   }
   .i-left-wrapper {
