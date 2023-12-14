@@ -197,17 +197,11 @@ body{background-color: #33007a;
     align-content: center;
     justify-content: center;
   }
-  .i-left-wrapper {
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    height: 100%;
-    
-  }
+
   .i-img {
-    width: 120%;
+    width: 110%;
     height: 80%;
-    object-fit: cover;
+    object-fit: cover fill;
     position: absolute;
     
   }
