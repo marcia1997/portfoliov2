@@ -40,6 +40,9 @@
   justify-content: space-between; /* Distribute items evenly */
 }
 
+
+
+
 /* Media query for screens with a maximum width of 480px (mobile devices) */
 @media screen and (max-width: 480px) {
   /* Adjust styles for mobile devices */
@@ -54,9 +57,8 @@
     width: 100%; /* Wider width for mobile */
   }
 
-  /* Adjust font size and margin of the title on mobile */
-  .pl-title {
-    font-size: 30px; /* Smaller font size on mobile */
+  h2{
+    font-size:40px ;
   }
 
   /* Adjust margin of the description on mobile */
