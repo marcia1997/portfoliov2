@@ -154,7 +154,7 @@
 }
 
 .i-img-profile{
-  border-radius: 50%;
+  border-radius: 10%;
   position: absolute;
   height: 280px;
   width: 280px;
@@ -184,11 +184,7 @@
     padding: 8 8 8 8px;
   }
 
-  .tecnologies{
-    align-items: center;
-    justify-content: center;
-    padding-left: 50px;
-  }
+
   .container-1{ 
     margin-top: 10px;
     padding-top:12px;
