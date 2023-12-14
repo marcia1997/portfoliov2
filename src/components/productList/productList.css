@@ -54,11 +54,11 @@
 
   /* Adjust width of '.pl-texts' on mobile */
   .pl-texts {
-    width: 100%; /* Wider width for mobile */
+    width: 90%; /* Wider width for mobile */
   }
 
   .pl-title{
-    font-size:20px ;
+    font-size:35px ;
     text-align: center;
   }
 
