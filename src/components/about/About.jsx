@@ -38,7 +38,7 @@ const About = () => {
         <p className="a-desc">
          I considere myself an self-thought person.<br></br>
          I enjoy learning new things and challanging with.
-         Learning differents aspects of coding and programming gave me an opportunity of discover myself.
+         Learning differents aspects of coding and programming gave me an opportunity of discover myself.<br></br>
          During my journey I enjoy how amazing is the power of generate something unique only with my computer.<br></br>
          I attend different courses and trainings,going from MERN stack,Python and UI/UX which gave me a big vision and skills about the creation of products,focused in the code side and also  the user needs.<br>
          </br>
