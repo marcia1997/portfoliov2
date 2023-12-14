@@ -57,8 +57,8 @@
     width: 100%; /* Wider width for mobile */
   }
 
-  h2{
-    font-size:25px ;
+  .pl-title{
+    font-size:20px ;
     text-align: center;
   }
 
