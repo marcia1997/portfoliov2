@@ -80,8 +80,8 @@ body{background-color: #33007a;
 }
 
 .i-title-wrapper {
-  height: 80%;
-  animation: move 10s ease-in-out infinite alternate;
+  height: 100%;
+  animation: move 7s ease-in-out infinite alternate;
   background-color: transparent;
 }
 
