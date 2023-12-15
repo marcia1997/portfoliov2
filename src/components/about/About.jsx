@@ -46,6 +46,7 @@ const About = () => {
          
         </p>
         
+        {/*
         <div className="tecnologies">
         <div className="container-1">
           
@@ -65,6 +66,7 @@ const About = () => {
          </div>
         </div>
       </div> 
+  */}
       </div>
       </div>
   );
