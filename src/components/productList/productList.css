@@ -47,9 +47,9 @@
 @media screen and (max-width: 480px) {
   /* Adjust styles for mobile devices */
   .pl {
-    padding-top:20px; /* Adjust top padding for better spacing */
+    padding-top:10px; /* Adjust top padding for better spacing */
     min-height: 70px; /* Adjust as needed */
-    margin-top: 180px;
+    margin-top: 100px;
   }
 
   /* Adjust width of '.pl-texts' on mobile */
