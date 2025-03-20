@@ -17,9 +17,8 @@ const Intro = () => {
           rel="stylesheet"
         />
       </Helmet>
-          <a href="" class="myText" id="color1"><h1>Marcia Vazquez</h1></a>
-          <h2 className="i-dev">Full-Stack Developer</h2>
-         
+      
+          <a href="" class="myText" id="color1"><h1>Marcia Vazquez</h1></a>         
          </div>
         </div>
         <svg
