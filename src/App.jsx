@@ -1,9 +1,9 @@
 import React from "react";
-import About from "./components/about/About";
 import Contact from "./components/contact/Contact";
 import Intro from "./components/intro/Intro";
 import ProductList from "./components/productList/ProductList";
 import Footer from "./components/footer/Footer";
+import About from "./components/about/About";
 
 //Comment test
 const App = () => {
