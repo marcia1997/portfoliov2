@@ -80,7 +80,7 @@ const Contact = () => {
           rel="stylesheet"
         />
       </Helmet>
-      Let's magic!</h2>
+      Contact me!</h2>
           <div className="c-info">
             <div className="c-info-item">
             <a href="https://mail.google.com/mail/u/?authuser=marciadenisevazquez@gmail.com" alt="">
