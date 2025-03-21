@@ -2,7 +2,7 @@
 .p {
   width: 30%; /* Set width to 30% of its container */
   height: 40vh; /* Set height to 40% of viewport height */
-  margin: 20px 10px; /* Adjust vertical and horizontal margins */
+  margin: 50px 10px; /* Adjust vertical and horizontal margins */
   border: 2px solid rgb(243, 242, 242); /* Add a border with light gray color */
   border-radius: 10px 10px 0px 0px; /* Rounded corners for top-left and top-right */
   overflow: hidden; /* Hide any overflowing content */
