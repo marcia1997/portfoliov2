@@ -5,7 +5,7 @@
   align-items: center; /* Center content horizontally */
   text-align: center; /* Center align text */
   padding: 20px ; /* Adjust padding for top and bottom, and horizontal spacing */
-  margin-top: 150vh; /* Spacing from the top */
+  margin-top: 120vh; /* Spacing from the top */
   margin-bottom: 150px; /* Spacing from the bottom */
   min-height: 600px; /* Minimum height to ensure content is visible */
 }
