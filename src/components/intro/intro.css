@@ -183,24 +183,40 @@ body{background-color: #33007a;
 
 @media screen and (max-width: 480px) {
  
-  .i-left-wrapper {
-    height: 100%;
-    position: absolute;
-  }
  
   
 .orv{
-  width: 250px;
-  height: 250px;
+  width: 330px;
+  height: 330px;
   padding: 5px;
 }
-
-.myText h1{
-  size: 250px;
+.i-left{
+  font-size: 20px;
 }
 
 .i-right {
-  margin-top: 140px;
+  width: 100%;
+  margin-top: 80px;
+}
+
+.text{
+  font-size: 25px;
+}
+
+/*About section*/
+
+.i-title{
+  width: 80%;
+  margin-top: 80px;
+  margin-left: 50px;
+}
+.i-title-item{
+ font-size:28px;
+}
+.i-left-wrapper{
+  height: 80%;
+  width: 50%;
+  margin-left: 250px;
 }
 
 
