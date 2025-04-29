@@ -47,6 +47,7 @@
 @media screen and (max-width: 480px) {
   /* Adjust styles for mobile devices */
   .pl {
+  
     padding-top:700px; /* Adjust top padding for better spacing */
     min-height: 70px; /* Adjust as needed */
     margin-top: 50px;
