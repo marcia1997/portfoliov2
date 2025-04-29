@@ -210,9 +210,12 @@ margin-left: 265px;
   margin:5px;
 }
 .i-title-item{
+  margin-left: 75px;
  font-size:30px;
 }
 .i-right {
+  height: 80%;
+  width: 100%;
   margin-top: 50px;
 
 }
